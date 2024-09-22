@@ -47,9 +47,14 @@ Paper Title: A Novel Double-Tail Generative Adversarial Network for Fast Photo A
 * Download this repository and use AnimeGANv3's [UI tool](https://github.com/TachibanaYoshino/AnimeGANv3_gui.exe) and pre-trained *.onnx to turn your photos or videos into anime. :blush:    
 
 * 🛠️ Installation
+   1. py37 install  
+      ```bash  
+      conda create --name py37 python=3.7 -y && conda activate py37 && pip install ipykernel &&  python -m ipykernel install --user --name py37 --display-name py37
+      ```
+
   1. Clone repo  
       ```bash  
-      git clone https://github.com/TachibanaYoshino/AnimeGANv3.git
+      git clone https://github.com/svjack/AnimeGANv3.git
       cd AnimeGANv3   
       ```
   
